@@ -37,6 +37,13 @@ header nav ul li a {
   text-decoration: none;
   font-weight: bold;
 }
+
+section a {
+  font-family: monospace;
+  color: whitesmoke;
+  text-decoration: none;
+  margin-left: 3rem;
+}
 footer {
   margin-top: 80px;
 }
@@ -45,7 +52,7 @@ footer p {
   font-family: "Courier New", Courier, monospace;
   font-size: 15px;
   text-align: center;
-  margin: 4px;
+  margin: 0px;
   padding: 4px;
 }
 
@@ -65,6 +72,7 @@ p {
   animation-timing-function: ease-in;
   animation-duration: 15s;
   position: relative;
+  margin: 10px;
 }
 .publicidad p {
   margin: auto;
@@ -81,6 +89,22 @@ p {
   100% {
     left: 75%;
   }
+}
+
+.intro {
+  background-color: whitesmoke;
+  text-align: center;
+
+  font-family: monospace;
+  font-weight: bolder;
+  padding: 5px;
+  width: 25%;
+  margin: auto;
+  transition: 2s;
+}
+
+.intro:hover {
+  transform: scale(1.2);
 }
 
 #formulario {
