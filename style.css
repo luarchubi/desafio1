@@ -82,3 +82,22 @@ p {
     left: 75%;
   }
 }
+
+#formulario {
+  line-height: 60px;
+  margin: auto;
+  text-align: center;
+  width: 50%;
+  font-family: monospace;
+}
+input:focus {
+  width: 150px;
+  font-size: 24px;
+  border: 5px solid black;
+}
+button {
+  height: 40px;
+  width: 100px;
+  box-shadow: bisque;
+  border-radius: 3px;
+}
