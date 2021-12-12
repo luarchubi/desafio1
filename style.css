@@ -65,12 +65,6 @@ section a {
   align-items: flex-end;
 }
 
-.fotos div {
-  background-color: black;
-  margin: auto;
-  height: 150px;
-  width: 150px;
-}
 footer {
   margin-top: 0px;
 }
@@ -85,8 +79,10 @@ footer p {
 
 p {
   text-align: center;
+  justify-content: center;
   margin: 10px;
   padding: 10px;
+  color: whitesmoke;
 }
 
 .publicidad {
@@ -104,8 +100,10 @@ p {
 .publicidad p {
   margin: auto;
   padding: auto;
-  color: #9ba6a5;
+  color: black;
   text-align: center;
+  font-family: monospace;
+  font-weight: bolder;
 }
 
 @keyframes publi {
@@ -151,4 +149,37 @@ button {
   width: 100px;
   box-shadow: bisque;
   border-radius: 3px;
+}
+
+.contenedoor {
+  background-color: grey;
+  width: 75%;
+  margin: auto;
+}
+#torre {
+  width: 150px;
+  height: 150px;
+}
+#torre:hover {
+  transform: rotate(360deg);
+  transition: 5s ease-in;
+  border-radius: 50%;
+}
+#arco {
+  width: 150px;
+  height: 150px;
+}
+#arco:hover {
+  transform: rotate(360deg);
+  transition: 5s ease-in;
+  border-radius: 50%;
+}
+#mona {
+  width: 150px;
+  height: 150px;
+}
+#mona:hover {
+  transform: rotate(360deg);
+  transition: 5s ease-in;
+  border-radius: 50%;
 }
