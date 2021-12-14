@@ -152,6 +152,11 @@ button {
   border-radius: 3px;
 }
 
+.contenedoor p,
+.contenedoor h2 {
+  max-width: 1000px;
+}
+
 .contenedoor {
   background-color: grey;
   width: 75%;
